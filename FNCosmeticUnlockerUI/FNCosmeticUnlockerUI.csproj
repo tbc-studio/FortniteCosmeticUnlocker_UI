@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCMakeCert" Version="2.0.9" />
+      <PackageReference Include="ElmahFiddler" Version="0.1.0" />
+      <PackageReference Include="FiddlerCore.Utilities" Version="1.20191.7809" />
+      <PackageReference Include="FiddlerCore5.NetworkConnections" Version="0.2.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>

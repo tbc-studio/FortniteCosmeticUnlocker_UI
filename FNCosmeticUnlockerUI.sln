@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNCosmeticUnlockerUI", "FNCosmeticUnlockerUI\FNCosmeticUnlockerUI.csproj", "{B30FDDAC-D056-400D-8B2C-509C7D064A2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30FDDAC-D056-400D-8B2C-509C7D064A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30FDDAC-D056-400D-8B2C-509C7D064A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30FDDAC-D056-400D-8B2C-509C7D064A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30FDDAC-D056-400D-8B2C-509C7D064A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

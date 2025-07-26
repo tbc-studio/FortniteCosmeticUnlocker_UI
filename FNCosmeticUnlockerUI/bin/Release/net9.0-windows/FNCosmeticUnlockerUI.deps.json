@@ -1,0 +1,236 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "FNCosmeticUnlockerUI/1.0.0": {
+        "dependencies": {
+          "BCMakeCert": "2.0.9",
+          "ElmahFiddler": "0.1.0",
+          "FiddlerCore.Utilities": "1.20191.7809",
+          "FiddlerCore5.NetworkConnections": "0.2.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "FNCosmeticUnlockerUI.dll": {}
+        }
+      },
+      "BCMakeCert/2.0.9": {
+        "runtime": {
+          "lib/netstandard2.0/BCMakeCert.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.9.0"
+          }
+        }
+      },
+      "DotNetZip.Reduced/1.9.1.8": {
+        "runtime": {
+          "lib/net20/Ionic.Zip.Reduced.dll": {
+            "assemblyVersion": "1.9.1.8",
+            "fileVersion": "1.9.1.8"
+          }
+        }
+      },
+      "elmah/1.2.2": {
+        "dependencies": {
+          "elmah.corelibrary": "1.2.2"
+        }
+      },
+      "elmah.corelibrary/1.2.2": {
+        "runtime": {
+          "lib/Elmah.dll": {
+            "assemblyVersion": "1.2.14706.0",
+            "fileVersion": "1.2.14706.955"
+          }
+        }
+      },
+      "ElmahFiddler/0.1.0": {
+        "dependencies": {
+          "DotNetZip.Reduced": "1.9.1.8",
+          "FiddlerCore": "4.4.8.4",
+          "elmah": "1.2.2"
+        },
+        "runtime": {
+          "lib/NET40/ElmahFiddler.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "FiddlerCore/4.4.8.4": {
+        "runtime": {
+          "lib/net40/CertMaker.dll": {
+            "assemblyVersion": "4.4.8.0",
+            "fileVersion": "4.4.8.0"
+          },
+          "lib/net40/FiddlerCore4.dll": {
+            "assemblyVersion": "4.4.8.4",
+            "fileVersion": "4.4.8.4"
+          }
+        }
+      },
+      "FiddlerCore.Utilities/1.20191.7809": {
+        "runtime": {
+          "lib/netstandard2.0/FiddlerCore.Utilities.dll": {
+            "assemblyVersion": "4.6.20191.7682",
+            "fileVersion": "4.6.20191.7682"
+          }
+        }
+      },
+      "FiddlerCore5.NetworkConnections/0.2.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.ComponentModel.Composition": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.NetworkConnections.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.Win32.Registry/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/4.6.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FNCosmeticUnlockerUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCMakeCert/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GBAneZZniACYigSU8FuK7CBav+sZ9eHQWyt10Qgqyxp1RULO9fGv2WYfLOYHhbdg+hs/sU+OLCPwMwzGqZOCVg==",
+      "path": "bcmakecert/2.0.9",
+      "hashPath": "bcmakecert.2.0.9.nupkg.sha512"
+    },
+    "DotNetZip.Reduced/1.9.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7QuPI2xAhLc1fF+tr5rc4PzgnhsOC1tjt4NSqTjg4yt0EbLz+vRTCvFk01fgUO47fHvrAcsMmtZRxBFG2E+9Ew==",
+      "path": "dotnetzip.reduced/1.9.1.8",
+      "hashPath": "dotnetzip.reduced.1.9.1.8.nupkg.sha512"
+    },
+    "elmah/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UGnc/NHz0SHNc5eWaW+NynuYWFn+KM2NEoBJbavDt6s8pSBZQgDkKaaqvEV43TiF5GB1uDVjXLx1yjdfP78UPQ==",
+      "path": "elmah/1.2.2",
+      "hashPath": "elmah.1.2.2.nupkg.sha512"
+    },
+    "elmah.corelibrary/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OEx4ds9r2bw2/45VZwfw11lLv4y+mC2FUZxp7LsjmauFxj92K1kx8hafSBvls+V9s0WH0wv84B1LfWN/EaGfkg==",
+      "path": "elmah.corelibrary/1.2.2",
+      "hashPath": "elmah.corelibrary.1.2.2.nupkg.sha512"
+    },
+    "ElmahFiddler/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xE6KC8B3TERFOVxCA2zrFnPRNGy7AhhehBLSUe1kSmJhlUwErxKO067VPxZkYY8qRIp1oymstn4cZmfMIExwkg==",
+      "path": "elmahfiddler/0.1.0",
+      "hashPath": "elmahfiddler.0.1.0.nupkg.sha512"
+    },
+    "FiddlerCore/4.4.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-83POB212Skj0qKK60lK5OSak86HSaANAa089WcIArjDCP/P37SCszs5p2Qio8LAgJKop+oR3hk2GdKBtwEADGQ==",
+      "path": "fiddlercore/4.4.8.4",
+      "hashPath": "fiddlercore.4.4.8.4.nupkg.sha512"
+    },
+    "FiddlerCore.Utilities/1.20191.7809": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2PMTf654eMtY/Wvy0gE1NYFhYBAXnhJBGXA6dHheYkVrxU2GPtnQIVgF5Pb6GHdhVZ3pu5APcSps3du53+xrw==",
+      "path": "fiddlercore.utilities/1.20191.7809",
+      "hashPath": "fiddlercore.utilities.1.20191.7809.nupkg.sha512"
+    },
+    "FiddlerCore5.NetworkConnections/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NLAxgCfpQJKE4RqmuFJMFLSEobABbkYJBCI6iI9c7I+v+BAF3lXOyoilaJx9jyZrTAHK0e6M/aHmrMGm0x+6gw==",
+      "path": "fiddlercore5.networkconnections/0.2.0",
+      "hashPath": "fiddlercore5.networkconnections.0.2.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xrLifQcKzXNinIunzLhgA4T0s0ZjkDdMq93mV8HkrfR6j0E7XVO3nIXorqkcqhdZI8HCQWUo00EHLQcegu9VIg==",
+      "path": "system.componentmodel.composition/4.6.0",
+      "hashPath": "system.componentmodel.composition.4.6.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    }
+  }
+}
